@@ -1,10 +1,3 @@
-// hamburger
-const hamburger = document.querySelector("#hamburger");
-
-hamburger.addEventListener("click", function () {
-  hamburger.classList.toggle("hamburger-active");
-});
-
 //navbar fixed
 window.onscroll = function () {
   const header = document.querySelector("header");
@@ -16,3 +9,12 @@ window.onscroll = function () {
     header.classList.remove("navbar-fixed");
   }
 };
+
+// hamburger
+const hamburger = document.querySelector("#hamburger");
+
+hamburger.addEventListener("click", function () {
+  hamburger.classList.toggle("hamburger-active");
+});
+
+
